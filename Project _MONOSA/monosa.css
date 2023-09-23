@@ -1,0 +1,705 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow&family=Borel&family=Cinzel:wght@500&family=Handjet:wght@200&family=Rubik:wght@300;400;600&family=Russo+One&display=swap');
+body{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    margin:auto;
+    scroll-behavior: smooth;
+}
+.sec-1{
+    background-image: url(Images/monosacover.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    padding: 50px;
+    margin-left: 350px;
+}
+nav{
+   
+    margin-left: 60px auto;
+}
+
+h1{
+    font-family: "Cinzel", sans-serif;
+    font-size:250px;
+    display: inline-block;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-top: 250px;
+    padding: 30px;
+}
+.p1{
+    font-family:  "Cinzel", sans-serif;
+    margin-top: -150px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 20px;
+    margin-left: 17px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color:transparent;
+    padding: 0px;
+    margin-top: -20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+
+.navbar a{
+    margin-top: 10px;
+   color:rgb(0, 0, 0);
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   font-size: 20px;
+   text-align: center;
+   font-family:"Cinzel", sans-serif; 
+   transition: 0.5s;
+}
+.navbar a:hover {
+   background-color: rgba(0, 0, 0, 0.699);
+   color: rgb(255, 255, 255);
+}
+.navbar li {
+   float: left;
+   margin-top: 10px;
+}
+.navbar2{
+    margin-left: 50px;
+}
+.navbar2 li {
+   
+   float: left;
+   margin: 5px;
+   list-style: none;
+   transition: 0.5s;
+}
+.navbar2 li:hover{
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
+.icon-1{
+    
+    width: 90px;
+    height: 90px;
+    margin-left: 0px auto;
+    margin-top:-7px ;
+}
+.icon-2{
+    width: 50px;
+    height: 50px;
+    margin-right: 320px ;
+    margin-top: -58px;
+    padding: 10px;
+}
+.icon-3{
+    width: 50px;
+    height: 50px;
+    margin-right:-150px;
+    margin-top: -45px;
+}
+.icon-4{
+    width: 50px;
+    height: 50px;
+    margin-right:-240px;
+    margin-top: -43px;
+}
+.search-bar{
+    width: 25%;
+    max-width: 700px;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    height:20px;
+    margin-top: -85px;
+    margin-left: 665px;
+}
+.search-bar input{
+    background:transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+::placeholder{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.sec-2{
+    background-image: url(Images/fashion.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 3fr 4fr;
+    gap:1px;
+    margin-top: -500px;
+
+}
+.gallery1{
+    width:min-content;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.488);
+    margin-left: 90px;
+    margin-top: 320px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.gallery2{
+    width:min-content;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.488);
+    margin-left: 90px;
+    margin-top: 320px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.gallery3{
+    width:min-content;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.488);
+    margin-left: 90px;
+    margin-top: 320px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.gallery4{
+    width:min-content;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.488);
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
+}
+.gallery5{
+    width:min-content;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.488);
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
+}
+.gallery6{
+    width:min-content;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.488);
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
+}
+
+.gallery1 .img-1{
+    border-radius: 20px;
+      width: 350px;
+      height: 200px;
+}
+.gallery2 .img-1{
+    border-radius: 20px;
+      width: 350px;
+      height: 200px;
+}
+.gallery3 .img-1{
+    border-radius: 20px;
+      width: 350px;
+      height: 200px;
+}
+.gallery4 .img-1{
+    border-radius: 20px;
+      width: 350px;
+      height: 200px;
+}
+.gallery5 .img-1{
+    border-radius: 20px;
+      width: 350px;
+      height: 200px;
+}
+.gallery6 .img-1{
+    border-radius: 20px;
+      width: 350px;
+      height: 200px;
+}
+.p2{
+    font-size: 180px;
+    font-family: "Cinzel", sans-serif ;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-top: 52px;
+    
+}
+.p3{
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.p3::first-letter{
+    font-size: x-large;
+    color: rgb(171, 176, 171);
+}
+
+.gallery-2{
+    display: grid;
+    grid-template-columns: 2fr 2fr; 
+    width:fit-content;
+    height: 270vh;
+    margin: 70px;
+    margin-top: 30px;
+    border-radius: 40px;
+    padding: 0px;
+}
+.sec-3{
+    background-image: url(Images/newarriv.png);
+    background-attachment: fixed;
+    background-size:cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.popup{
+    height: 80px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    bottom: 84px;
+    position: relative;
+    background: rgba(93, 56, 0, 0.678);
+    color: white;
+    transition:.5s;
+    text-align: center;
+}
+.popup1{
+    height: 80px;
+    width: 400px;
+    padding: 6px;
+    box-sizing: border-box;
+    bottom: 84px;
+    position: relative;
+    background: rgba(93, 56, 0, 0.678);
+    color: rgb(255, 255, 255);
+    transition:.5s;
+    text-align: center;
+}
+.container{
+    background-color:transparent;
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+
+}   
+.container1{
+    background-color:transparent;
+    width: 350px;
+    padding: 20px;
+    height: 500px;
+}   
+.container2{
+    background-color: transparent;
+    height: 500px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: -100px;
+}   
+
+.container3{
+    background-color:transparent;
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+}   
+.container4{
+    background-color:transparent;
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.container:hover{
+    cursor: pointer;
+}
+.container:hover .popup{
+    height: 220px;
+    bottom: 350px;
+    color: rgb(0, 0, 0);
+    background: rgba(240, 200, 147, 0.577);
+}
+
+.container:hover .p9{
+  opacity: 1;
+  visibility: visible;
+}
+
+.tocart{
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Cinzel", sans-serif ;
+    visibility: hidden;
+    opacity: 0;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+    padding: 5px;
+}
+.tocart:hover{
+
+   background-color: black;
+   color: white;
+}
+.container:hover .tocart{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.container1:hover .tocart{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.container2:hover .tocart{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.container3:hover .tocart{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.container4:hover .tocart{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.container1:hover{
+    cursor: pointer;
+}
+.container1:hover .popup{
+    height: 220px;
+    bottom: 350px;
+    color: black;
+    background:  rgba(240, 200, 147, 0.577);
+}
+.container1:hover .p9{
+  opacity: 1;
+  visibility: visible;
+}
+.container3:hover{
+    cursor: pointer;
+}
+.container3:hover .popup{
+    height: 220px;
+    bottom: 350px;
+    color: black;
+    background:  rgba(240, 200, 147, 0.577);
+}
+.container3:hover .p9{
+  opacity: 1;
+  visibility: visible;
+}
+.container4:hover{
+    cursor: pointer;
+}
+.container4:hover .popup{
+    height: 220px;
+    bottom: 350px;
+    color: black;
+    background:  rgba(240, 200, 147, 0.577);
+}
+.container4:hover .p9{
+  opacity: 1;
+  visibility: visible;
+}
+.container2:hover{
+    cursor: pointer;
+}
+.container2:hover .popup1{
+    height: 220px;
+    bottom: 350px;
+    color: black;
+    background:  rgba(240, 200, 147, 0.577);
+}
+.container2:hover .p9{
+  opacity: 1;
+  visibility: visible;
+}
+
+.head1{
+    font-size: 120px;
+   margin-top: 50px;
+   color: rgb(118, 68, 2);
+}
+.img-2{
+    height: 550px;
+    width: 350px;
+    box-shadow: 5px 5px 20px black;
+   
+}
+.img-3{
+    height: 550px;
+    width: 350px;
+    box-shadow: 5px 5px 20px black;
+}
+.img-4{
+    height: 650px;
+    width: 400px;
+    box-shadow: 5px 5px 20px black;
+    margin-top: -10px;
+    
+}
+.img-5{
+    height: 500px;
+    width: 350px;
+    box-shadow: 5px 5px 20px black;
+    margin-top: 50px;
+}
+.img-6{
+    height: 500px;
+    width: 350px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 20px black;
+}
+.p4{
+    font-size: 60px;
+    color: black;
+    font-family: "Cinzel", sans-serif ;
+    margin-top: 10px;
+    letter-spacing: 15px;
+    margin-left: 150px;
+    
+}
+.link1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.link1:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.sec-4{
+   background-image: url(Images/mens.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -50px;
+    text-align: center;
+}
+.sec-4a{
+    background-color: rgb(231, 215, 194);
+    background-attachment: fixed;
+    background-size:cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -150px;
+   
+}
+.p6{
+     font-family: "Cinzel", sans-serif ;
+    font-size: 150px;
+    margin-left: 30px;
+   margin-top: 50px;
+   color: rgb(0, 0, 0);
+}
+main{
+    background-image: url(Images/menscover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1500px;
+    height: 400px;
+    padding: 10px;
+}
+.animate{
+    font-size: 30px;
+    margin-top:130px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.text-box span{
+    background: red;
+    height:1px;
+    width: 300px;
+    position: absolute;
+    margin-left: -300px;
+    margin-top: 220px;
+}
+.animate1{
+    font-family: "Cinzel", sans-serif ;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: -5px;
+    position: relative;
+}
+main .animate {
+    opacity: 0 ;
+    filter: blur(5px);
+    transition: 1s;
+}
+main.show-animate .animate{
+    opacity: 1;
+    filter: blur(0);
+}
+.main1 .animate{
+    transform:translateY(-80%);
+}
+.main1.show-animate .animate{
+    transform: translateY(0);
+}
+main .animate1 {
+    opacity: 0;
+    filter: blur(5px);
+    transition: 1s;
+}
+main.show-animate .animate1{
+    opacity: 1;
+    filter: blur(0);
+}
+.main1 .animate1{
+    transform:translateY(100%);
+}
+.main1.show-animate .animate1{
+    transform: translateY(0);
+}
+.p8{
+    
+    font-size: 130px;
+    margin-left: 30px;
+   margin-top: 50px;
+   color: rgb(0, 0, 0);
+    font-family: "Cinzel", sans-serif ;
+
+}
+.p9{
+    font-size: 20px;
+   text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card{
+    height: 500px;
+    margin: 10px;
+    width: 350px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.card1{
+    height: 500px;
+    margin: 10px;
+    width: 350px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.img-7{
+    height: 500px;
+    width: 350px;
+    transition:.5s;
+}
+
+
+.intro{
+    height: 80px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    bottom: 78px;
+    position: relative;
+    background: rgba(93, 56, 0, 0.678);
+    color: white;
+    transition:.5s;
+}
+.head3{   
+    margin: -10px;
+    font-size: 20px;
+}
+.head4{   
+    margin: -20px;
+    font-size: 15px;
+}
+.p5{
+    font-size: 20px;
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 220px;
+    bottom: 200px;
+    color: black;
+    background:  rgba(240, 200, 147, 0.577);
+}
+.card:hover .p5{
+  opacity: 1;
+  visibility: visible;
+}
+
+.card:hover .img-7{
+    transform: scale(1.1);
+}
+.card1:hover{
+    cursor: pointer;
+}
+.card:hover .tocart{
+  opacity: 1;
+  visibility: visible;
+}
+.card1:hover .tocart{
+  opacity: 1;
+  visibility: visible;
+}
+.card1:hover .intro{
+    height: 220px;
+    bottom: 200px;
+    color: black;
+    background:  rgba(240, 200, 147, 0.577);
+}
+.card1:hover .p5{
+  opacity: 1;
+  visibility: visible;
+}
+
+.card1:hover .img-7{
+    transform: scale(1.1);
+}
+.sec-5{
+   background-image: url(Images/womencov.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+    margin-top: -90px;
+    text-align: center;
+}
+.sec-5a{
+    background-color: rgb(231, 215, 194);
+    background-attachment: fixed;
+    background-size:cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -130px;
+}
+.head5{
+    font-size: 100px;
+    margin-left: 30px;
+   margin-top: 50px;
+   color: rgb(0, 0, 0);
+}
+
+
